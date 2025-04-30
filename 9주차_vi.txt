@@ -1,0 +1,57 @@
+#!/bin/bash
+vi 예제 정리
+
+1️⃣ 예제 1: 새 파일 만들고 내용 입력하기
+문제:
+example.txt 파일을 만들고 다음 내용을 입력하고 저장/종료하세요.
+
+My first vi editing!
+I am learning Linux.
+
+정답:
+My first vi editing!
+I am learning Linux.
+
+
+2️⃣ 예제 2: 한 줄 추가하고 저장
+문제:
+example.txt의 마지막 줄 아래에 다음 줄을 추가하고 저장하세요.
+
+This is a new line.
+
+정답:
+My first vi editing!
+I am learning Linux.
+This is a new line.
+
+
+3️⃣ 예제 3: 텍스트 수정
+문제:
+example.txt에서 마지막 줄의 마침표(.)를 s로 수정하세요.
+
+수정 전:
+My first vi editing!
+I am learning Linux.
+This is a new line.
+
+정답:
+My first vi editing!
+I am learning Linux.
+This is a new lines
+
+
+4️⃣ 예제 4: 한 줄 삭제 및 복사
+문제:
+아래 내용이 있는 example4.txt 파일에서
+- 두 번째 줄(Line two)을 삭제
+- 첫 번째 줄(Line one)을 복사해서 두 번째 줄에 붙여넣기 하세요.
+
+초기 내용:
+Line one
+Line two
+Line three
+
+정답:
+Line one
+Line one
+Line three
